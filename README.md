@@ -11,7 +11,7 @@ Simple cheat sheet used to remember a few useful git commands
 	4. git add
 	5. git commit -m "MESSAGE"
 	6. git push -u origin BRANCHNAME
-	7. (Web) PR (link do freshdesk, comentar 'CR [mention do reviwer])
+	7. (Web) create PR if applicable
 	
 	8. git rebase -p origin/BASEBRANCH
 	9. git push -f
@@ -25,7 +25,7 @@ Simple cheat sheet used to remember a few useful git commands
 	(command line)
 	10. git checkout develop
 	11. git merge --no-ff BRANCHNAME
-	12. Resolve conflits if any with 'subl filepath' then git add . and git commit
+	12. Resolve conflits if any with 'subl filepath' (or any other editor) then git add . and git commit
 	13. git push origin develop
 	
 	14. git branch -d BRANCHNAME
@@ -72,4 +72,10 @@ Simple cheat sheet used to remember a few useful git commands
 	3. apply-gitignore = !git ls-files -ci --exclude-standard -z | xargs -0r git rm --cached
 	
 # Recommended reads
-[Git from the inside out](https://codewords.recurse.com/issues/two/git-from-the-inside-out) by Mary Rose Cook
+[Git from the inside out](https://codewords.recurse.com/issues/two/git-from-the-inside-out)
+
+[GIT: FETCH AND MERGE, DON’T PULL](https://longair.net/blog/2009/04/16/git-fetch-and-merge/)
+
+[Don't Be Scared of git rebase](https://nathanleclaire.com/blog/2014/09/14/dont-be-scared-of-git-rebase/)
+
+[http://nvie.com/posts/a-successful-git-branching-model/](http://nvie.com/posts/a-successful-git-branching-model/)
