@@ -70,3 +70,6 @@ Simple cheat sheet used to remember a few useful git commands
 	1. git ls-files -ci --exclude-standard
 	2. git ls-files -ci --exclude-standard -z | xargs -0 git rm --cached
 	3. apply-gitignore = !git ls-files -ci --exclude-standard -z | xargs -0r git rm --cached
+	
+# Recommended reads
+	1. https://codewords.recurse.com/issues/two/git-from-the-inside-out
